@@ -6,7 +6,7 @@
 </a>
 
 ## Introduction
-SkillSwap is a decentralized platform designed for buying, selling, and listing educational resources. Built on the EDU Chain, it enables users to tokenize learning materials, such as eBooks or courses, and trade them securely using NFTs. The marketplace ensures transparency, ownership, and monetization opportunities for educational creators and learners alike.
+SkillSwap is a decentralized platform designed for buying, selling, and listing educational resources. Built on the **Creator Chain**, it enables users to tokenize learning materials, such as eBooks or courses, and trade them securely using NFTs. The marketplace ensures transparency, ownership, and monetization opportunities for educational creators and learners alike.
 
 ## Features
 ### Listing Educational Resources
@@ -86,7 +86,7 @@ SkillSwap is a decentralized platform designed for buying, selling, and listing 
 
 ## Usage Instructions
 ### Deployment
-1. Deploy the **SkillSwap** contract on a supported **EDU Chain**.
+1. Deploy the **SkillSwap** contract on a supported **Creator Chain**.
 2. Initialize the contract with the desired owner address.
 
 ### Listing a Resource
