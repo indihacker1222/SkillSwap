@@ -1,9 +1,7 @@
 # SkillSwap
 
 ## Project Front Image
-<a href="/home/techsteck/Documents/skillswap/client/src/assets/skillsSwapfrontimage.png" target="_blank">
-  <img src="frontimage.png" alt="Front Image">
-</a>
+![Front Image](/home/techsteck/Documents/skillswap/client/src/assets/skillsSwapfrontimage.png)
 
 ## Introduction
 SkillSwap is a decentralized platform designed for buying, selling, and listing educational resources. Built on the **Creator Chain**, it enables users to tokenize learning materials, such as eBooks or courses, and trade them securely using NFTs. The marketplace ensures transparency, ownership, and monetization opportunities for educational creators and learners alike.
