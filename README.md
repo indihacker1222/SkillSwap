@@ -1,7 +1,7 @@
 # SkillSwap
 
 ## Project Front Image
-<a href="frontimage.png" target="_blank">
+<a href="client/src/assets/skillsSwapfrontimage.png" target="_blank">
   <img src="frontimage.png" alt="Front Image">
 </a>
 
