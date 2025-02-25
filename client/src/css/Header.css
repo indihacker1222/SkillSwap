@@ -1,0 +1,62 @@
+/* General header styles */
+.header {
+  font-family: "Wix Madefor Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #7e42ff, #f44e6f); /* Gradient background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  
+  
+  /* Logo styles */
+  .header .logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .logo {
+    height: 40px; /* Adjust the size of the logo */
+    width: auto;
+  }
+  
+  /* Navigation styles */
+  .header .nav-links {
+    display: flex;
+    gap: 30px; /* Spacing between links */
+  }
+  
+  .header .nav-item {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .header .nav-item:hover {
+    color: #4c6ef5; /* Change color on hover */
+    transform: translateY(-2px); /* Slight upward movement */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .header .nav-links {
+      flex-direction: column;
+      gap: 15px; /* Spacing between links on mobile */
+    }
+  }
+  

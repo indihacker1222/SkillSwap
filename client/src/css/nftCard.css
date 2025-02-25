@@ -1,0 +1,129 @@
+/* nftCard.css */
+
+.nft-card-unique {
+  background: rgba(30, 30, 30, 0.95); /* Darker, more elegant background */
+  border-radius: 15px; /* Smaller rounded corners */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6); /* Lighter shadow */
+  padding: 15px; /* Reduced padding */
+  text-align: center;
+  backdrop-filter: blur(10px); /* Reduced blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 200px; /* Smaller width */
+  margin: 10px auto; /* Reduced margin */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Ensure nothing overflows */
+}
+
+.nft-card-unique:hover {
+  transform: translateY(-5px); /* Smaller lift effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); /* Stronger shadow on hover */
+}
+
+.nft-card-unique-image {
+  width: 100%;
+  height: 120px; /* Smaller height */
+  border-radius: 10px; /* Smaller rounded corners */
+  object-fit: cover; /* Crop image proportionally */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Enhanced image shadow */
+  margin-bottom: 10px; /* Reduced space below image */
+}
+
+.nft-card-unique-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px; /* Reduced spacing */
+  padding: 0 5px; /* Reduced padding */
+}
+
+.nft-card-unique-title {
+  font-size: 1.1rem; /* Smaller font size */
+  font-weight: 600; /* Semi-bold for emphasis */
+  color: #ffffff;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%; /* Ensure title is centered */
+  letter-spacing: 0.5px; /* Slight spacing for elegance */
+}
+
+.nft-card-unique-description {
+  font-size: 0.8rem; /* Smaller font size */
+  color: #d0d0d0; /* Softer muted color */
+  line-height: 1.4; /* Improved readability */
+  text-align: left; /* Align to left for better flow */
+  margin-bottom: 8px; /* Space below description */
+  font-weight: 400; /* Regular weight for body text */
+}
+
+.nft-card-unique-price,
+.nft-card-unique-owner,
+.nft-card-unique-status {
+  font-size: 0.8rem; /* Smaller font size */
+  color: #ff9800; /* Accent color */
+  font-weight: 500;
+  word-break: break-word;
+  width: 100%; /* Ensure full width */
+  text-align: center; /* Center align for consistency */
+}
+
+.nft-card-unique-owner {
+  color: #ffffff; /* White for clarity */
+  font-size: 0.75rem; /* Smaller font size */
+  font-weight: 400; /* Regular weight */
+  opacity: 0.8; /* Slightly faded for subtlety */
+}
+
+.nft-card-unique-status {
+  color: #4caf50; /* Green for status */
+  font-weight: 600; /* Bold for emphasis */
+  text-align: center;
+  margin-top: 5px; /* Space above status */
+}
+
+.nft-card-unique-button {
+  padding: 8px 15px; /* Smaller padding */
+  font-size: 0.9rem; /* Smaller font size */
+  color: #ffffff;
+  background: linear-gradient(135deg, #555555, #777777); /* Subtle gradient */
+  border: none;
+  border-radius: 8px; /* Smaller rounded corners */
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px; /* Reduced margin */
+  width: 100%;
+  font-weight: 500; /* Medium weight for button text */
+  letter-spacing: 0.5px; /* Slight spacing for elegance */
+}
+
+.nft-card-unique-button:hover {
+  transform: scale(1.03); /* Subtle hover effect */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+}
+
+.nft-card-unique-button:disabled {
+  background: rgba(100, 100, 100, 0.5);
+  cursor: not-allowed;
+  opacity: 0.7; /* Faded look for disabled state */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nft-card-unique {
+    padding: 10px;
+    max-width: 90%; /* Slightly wider on mobile */
+  }
+
+  .nft-card-unique-title {
+    font-size: 1rem;
+  }
+
+  .nft-card-unique-description {
+    font-size: 0.75rem;
+  }
+
+  .nft-card-unique-button {
+    font-size: 0.85rem;
+  }
+}
