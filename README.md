@@ -1,7 +1,7 @@
 # SkillSwap
 
 ## Project Front Image
-<a href="client/src/assets/skillsSwapfrontimage.png" target="_blank">
+<a href="/home/techsteck/Documents/skillswap/client/src/assets/skillsSwapfrontimage.png" target="_blank">
   <img src="frontimage.png" alt="Front Image">
 </a>
 
