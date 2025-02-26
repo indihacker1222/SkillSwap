@@ -121,7 +121,7 @@ SkillSwap is a decentralized platform designed for buying, selling, and listing 
 This project is licensed under the **MIT License**.
 
 ## Links
-- **GitHub Repository**: [SkillSwap Marketplace](#)
+- **GitHub Repository**: [SkillSwap Marketplace](https://github.com/indihacker1222/SkillSwap.git)
 - **Demo Video**: [Watch Here](#)
 - **Project Website**: [Visit Here](#)
 
